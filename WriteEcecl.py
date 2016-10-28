@@ -16,7 +16,7 @@ for i in range(100):
     l.append(d)
 # print '\n'.join(l)
 # for n in range(100):
-    sheet1.write(0,0,u'这是预约号')      #在第一行写入标题
-    sheet1.write(i+1,0,l[i])         #从第二行开始，每行写人一个预约号码
+    sheet1.write(0,0,u'这是预约号')     #在第一行第一列写入标题
+    sheet1.write(i+1,0,l[i])         #从第二行第一列开始，每行的第一列写人一个预约号码
 f.save('test.xls')                   #一定要记得保存
      
