@@ -8,7 +8,7 @@ import xlwt
 # 创建一个工作薄
 f = xlwt.Workbook()
 # 创建一个工作表，命名为‘预约号’
-sheet1 = f.add_sheet(u'预约号', cell_overwrite_ok=True)
+sheet1 = f.add_sheet(u'预约号', cell_overwrite_ok=True)   ##第二参数用于确认同一个cell单元是否可以重设值。  
 l = []
 for i in range(100):
     j = random.randint(12340000,12349999)
