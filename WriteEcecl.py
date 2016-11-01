@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding:utf-8 -*-
+# -*- coding:UTF-8 -*-
 __author__ = 'Administrator'
 
 import random
